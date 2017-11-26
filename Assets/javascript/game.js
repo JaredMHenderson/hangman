@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $('#wordToGuess').focus();
+
+
 // Global Variables
 // --------------------------------------
 
@@ -158,6 +162,8 @@ document.onkeyup = function(event) {
     console.log(letterGuessed);
 
 }
+
+});
 
 
 
