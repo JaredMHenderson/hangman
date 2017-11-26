@@ -35,6 +35,10 @@ var guessesLeft = 9;
 
 // Functions
 // -------------------------------------
+function FocusMain()
+{
+    $("#main").focus();
+}
 
 function startGame() {
     selectedTeam = teams[Math.floor(Math.random() * teams.length)];
